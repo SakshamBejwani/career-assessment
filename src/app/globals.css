@@ -1,0 +1,197 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — mirrored in src/server/reports/template.tsx for the PDF.
+ * Ink/Mist/Paper carry the interface; Marigold is the single accent; Data blue is for charts only.
+ */
+@theme {
+  --color-ink: #17213a;
+  --color-ink-soft: #2a3655;
+  --color-slate: #4a5468;
+  --color-muted: #646c7e;
+  --color-rule: #d5dbe4;
+  --color-rule-strong: #b9c2d0;
+  --color-mist: #eef1f5;
+  --color-paper: #ffffff;
+  --color-marigold: #e9a23b;
+  --color-marigold-soft: #fbedd6;
+  --color-data: #2a62c9;
+  --color-data-tint: #c8d5ee;
+  --color-good: #0c7a2f;
+  --color-good-soft: #e3f3e8;
+  --color-alert: #b42318;
+  --color-alert-soft: #fdecea;
+
+  --font-sans: "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Lexend Exa", "Lexend", ui-sans-serif, system-ui, sans-serif;
+  --font-mega: "Lexend Mega", "Lexend Exa", ui-sans-serif, system-ui, sans-serif;
+
+  --radius-plate: 14px;
+  --radius-control: 10px;
+
+  --animate-draw: draw 1.6s cubic-bezier(0.65, 0, 0.35, 1) 0.15s both;
+  --animate-rise: rise 0.9s cubic-bezier(0.22, 1, 0.36, 1) 1.1s both;
+
+  @keyframes draw {
+    from {
+      stroke-dashoffset: 1;
+    }
+    to {
+      stroke-dashoffset: 0;
+    }
+  }
+  @keyframes rise {
+    from {
+      opacity: 0;
+      transform: scale(0.6);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+  }
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+  }
+  body {
+    background: var(--color-mist);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+    font-weight: 300;
+    line-height: 1.6;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  strong {
+    font-weight: 500;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-marigold);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  ::selection {
+    background: var(--color-marigold-soft);
+  }
+}
+
+@layer components {
+  .btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.35rem;
+    border-radius: var(--radius-control);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.2;
+    transition:
+      background-color 150ms,
+      color 150ms,
+      border-color 150ms;
+    cursor: pointer;
+  }
+  .btn:disabled {
+    opacity: 0.55;
+    cursor: not-allowed;
+  }
+  .btn-primary {
+    background: var(--color-ink);
+    color: var(--color-paper);
+  }
+  .btn-primary:hover:not(:disabled) {
+    background: var(--color-ink-soft);
+  }
+  .btn-secondary {
+    background: transparent;
+    color: var(--color-ink);
+    border: 1.5px solid var(--color-rule-strong);
+  }
+  .btn-secondary:hover:not(:disabled) {
+    border-color: var(--color-ink);
+  }
+  .btn-quiet {
+    background: transparent;
+    color: var(--color-slate);
+    padding-inline: 0.75rem;
+  }
+  .btn-quiet:hover:not(:disabled) {
+    color: var(--color-ink);
+  }
+  .field-label {
+    display: block;
+    font-weight: 500;
+    font-size: 0.95rem;
+    margin-bottom: 0.35rem;
+  }
+  .field-hint {
+    font-size: 0.85rem;
+    color: var(--color-muted);
+  }
+  .field-input {
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.65rem 0.9rem;
+    border-radius: var(--radius-control);
+    border: 1.5px solid var(--color-rule-strong);
+    background: var(--color-paper);
+    font: inherit;
+    font-weight: 400;
+    color: var(--color-ink);
+  }
+  .field-input:focus-visible {
+    outline-offset: 1px;
+    border-color: var(--color-ink);
+  }
+  .field-input[aria-invalid="true"] {
+    border-color: var(--color-alert);
+  }
+  .field-error {
+    margin-top: 0.35rem;
+    font-size: 0.875rem;
+    color: var(--color-alert);
+  }
+  .prose-measure {
+    max-width: 68ch;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-delay: 0ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "assessmentId": "mbti_personality",
+  "questionnaireVersion": "1.0.0",
+  "scoringVersion": "mbti-scoring-1.0.0",
+  "approval": "engineering",
+  "note": "Expected values computed independently from the answer-sheet table in QUESTIONNAIRES_SOURCE_DATA.md. Proves the code matches the transcribed key; does not prove the key is right. answers[i] is the answer to question i+1. Ties use the engineering default X.",
+  "cases": [
+    {
+      "name": "all answers a",
+      "answers": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "expected": {
+        "typeCode": "ESTJ",
+        "counts": {
+          "E": 10,
+          "I": 0,
+          "S": 20,
+          "N": 0,
+          "T": 20,
+          "F": 0,
+          "J": 20,
+          "P": 0
+        },
+        "ties": []
+      }
+    },
+    {
+      "name": "all answers b",
+      "answers": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+      "expected": {
+        "typeCode": "INFP",
+        "counts": {
+          "E": 0,
+          "I": 10,
+          "S": 0,
+          "N": 20,
+          "T": 0,
+          "F": 20,
+          "J": 0,
+          "P": 20
+        },
+        "ties": []
+      }
+    },
+    {
+      "name": "I S F J by group",
+      "answers": "baabbaabaabbaabaabbaabaabbaabaabbaabaabbaabaabbaabaabbaabaabbaabaabbaa",
+      "expected": {
+        "typeCode": "ISFJ",
+        "counts": {
+          "E": 0,
+          "I": 10,
+          "S": 20,
+          "N": 0,
+          "T": 0,
+          "F": 20,
+          "J": 20,
+          "P": 0
+        },
+        "ties": []
+      }
+    },
+    {
+      "name": "E N T P by group",
+      "answers": "abbaabbabbaabbabbaabbabbaabbabbaabbabbaabbabbaabbabbaabbabbaabbabbaabb",
+      "expected": {
+        "typeCode": "ENTP",
+        "counts": {
+          "E": 10,
+          "I": 0,
+          "S": 0,
+          "N": 20,
+          "T": 20,
+          "F": 0,
+          "J": 0,
+          "P": 20
+        },
+        "ties": []
+      }
+    },
+    {
+      "name": "ties on E/I and S/N, near-tie elsewhere",
+      "answers": "aabaaabaabababaabababaabababaabababbabababbabababbabababbabababbababbb",
+      "expected": {
+        "typeCode": "XXTP",
+        "counts": {
+          "E": 5,
+          "I": 5,
+          "S": 10,
+          "N": 10,
+          "T": 11,
+          "F": 9,
+          "J": 9,
+          "P": 11
+        },
+        "ties": [
+          "EI",
+          "SN"
+        ]
+      }
+    },
+    {
+      "name": "seeded random vector 1",
+      "answers": "bbbbbaabbaabaabaaaaaabbbaabbbababaababbbbbbbaaaaaaababbbbbabbbbaabbaab",
+      "expected": {
+        "typeCode": "INXJ",
+        "counts": {
+          "E": 2,
+          "I": 8,
+          "S": 9,
+          "N": 11,
+          "T": 10,
+          "F": 10,
+          "J": 11,
+          "P": 9
+        },
+        "ties": [
+          "TF"
+        ]
+      }
+    },
+    {
+      "name": "seeded random vector 2",
+      "answers": "bababbaabbababbbababbbaabbbbbaabbbaabbbaaabbabbbabbbabbabababbbbbbbaab",
+      "expected": {
+        "typeCode": "INFP",
+        "counts": {
+          "E": 2,
+          "I": 8,
+          "S": 8,
+          "N": 12,
+          "T": 7,
+          "F": 13,
+          "J": 8,
+          "P": 12
+        },
+        "ties": []
+      }
+    },
+    {
+      "name": "seeded random vector 3",
+      "answers": "baabaaaabababaaabaaabaabbaabbbbbbababbbbbbabbaabbaaabbbbbbbbabbaabbaab",
+      "expected": {
+        "typeCode": "ENFP",
+        "counts": {
+          "E": 7,
+          "I": 3,
+          "S": 8,
+          "N": 12,
+          "T": 9,
+          "F": 11,
+          "J": 7,
+          "P": 13
+        },
+        "ties": []
+      }
+    }
+  ]
+}

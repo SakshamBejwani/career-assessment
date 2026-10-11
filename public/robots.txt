@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /attempt/
+Disallow: /admin
+Disallow: /r/
+Disallow: /api/

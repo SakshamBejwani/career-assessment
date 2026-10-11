@@ -1,0 +1,1977 @@
+{
+  "product_name": "Psychology-Based Career Assessment",
+  "assessment_modules": [
+    {
+      "id": "mbti_personality",
+      "name": "MBTI / Personality Type Identification",
+      "source_file": "TEST 1 (PERSONALITY).pdf",
+      "source_title": "Personality Type Identification Using Psychometric Test",
+      "source_pages": "PDF pages 1-6",
+      "status": "transcribed_from_supplied_pdf_scoring_requires_validation",
+      "instructions": [
+        "There are no right answers to any of these questions.",
+        "Answer the questions quickly, do not over-analyze them.",
+        "Answer the questions as the way you are, not the way you would like to be seen by others.",
+        "The PDF advises not to look at the scoring sheet until all questions are completed."
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "text": "At a party do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "interact with many, including strangers"
+            },
+            {
+              "key": "b",
+              "text": "interact with a few people you know well"
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "Are you more",
+          "options": [
+            {
+              "key": "a",
+              "text": "realistic than speculative"
+            },
+            {
+              "key": "b",
+              "text": "speculative than realistic"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "Is it worse to",
+          "options": [
+            {
+              "key": "a",
+              "text": "be someone who likes variety and new ideas"
+            },
+            {
+              "key": "b",
+              "text": "be someone who likes predictable routine"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "Are you more impressed by",
+          "options": [
+            {
+              "key": "a",
+              "text": "principles"
+            },
+            {
+              "key": "b",
+              "text": "emotions"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "Are you more drawn towards the",
+          "options": [
+            {
+              "key": "a",
+              "text": "convincing"
+            },
+            {
+              "key": "b",
+              "text": "touching"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "Do you prefer to work",
+          "options": [
+            {
+              "key": "a",
+              "text": "on a schedule with a deadlines"
+            },
+            {
+              "key": "b",
+              "text": "whenever you are inspired to work"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "Do you tend to chose",
+          "options": [
+            {
+              "key": "a",
+              "text": "rather carefully"
+            },
+            {
+              "key": "b",
+              "text": "somewhat impulsively"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "At parties do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "stay late, with increasing energy"
+            },
+            {
+              "key": "b",
+              "text": "leave early, with decreasing energy"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "text": "Are you more attracted to",
+          "options": [
+            {
+              "key": "a",
+              "text": "practical people"
+            },
+            {
+              "key": "b",
+              "text": "imaginative people"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "text": "Are you more interested in",
+          "options": [
+            {
+              "key": "a",
+              "text": "what is actual"
+            },
+            {
+              "key": "b",
+              "text": "what is possible"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "text": "In judging others are you more swayed by",
+          "options": [
+            {
+              "key": "a",
+              "text": "laws than circumstances"
+            },
+            {
+              "key": "b",
+              "text": "circumstances than laws"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "text": "In approaching others is your inclination to be somewhat",
+          "options": [
+            {
+              "key": "a",
+              "text": "objective"
+            },
+            {
+              "key": "b",
+              "text": "personal"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "text": "Are you more",
+          "options": [
+            {
+              "key": "a",
+              "text": "punctual"
+            },
+            {
+              "key": "b",
+              "text": "leisurely"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Does it bother you having things",
+          "options": [
+            {
+              "key": "a",
+              "text": "incomplete"
+            },
+            {
+              "key": "b",
+              "text": "completed"
+            }
+          ]
+        },
+        {
+          "number": 15,
+          "text": "In your social groups do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "keep abreast of other’s happenings"
+            },
+            {
+              "key": "b",
+              "text": "get behind on the news"
+            }
+          ]
+        },
+        {
+          "number": 16,
+          "text": "In doing ordinary things are you more likely to",
+          "options": [
+            {
+              "key": "a",
+              "text": "do it the usual way"
+            },
+            {
+              "key": "b",
+              "text": "do it your own way"
+            }
+          ]
+        },
+        {
+          "number": 17,
+          "text": "Writers should",
+          "options": [
+            {
+              "key": "a",
+              "text": "“say what they mean and mean what they say”"
+            },
+            {
+              "key": "b",
+              "text": "express things more by use of analogy"
+            }
+          ]
+        },
+        {
+          "number": 18,
+          "text": "Which appeals to you more",
+          "options": [
+            {
+              "key": "a",
+              "text": "consistency of thought"
+            },
+            {
+              "key": "b",
+              "text": "harmonious human relationships"
+            }
+          ]
+        },
+        {
+          "number": 19,
+          "text": "Are you more comfortable in making",
+          "options": [
+            {
+              "key": "a",
+              "text": "logical judgments"
+            },
+            {
+              "key": "b",
+              "text": "value judgments"
+            }
+          ]
+        },
+        {
+          "number": 20,
+          "text": "Do you want things",
+          "options": [
+            {
+              "key": "a",
+              "text": "settled and decided"
+            },
+            {
+              "key": "b",
+              "text": "unsettled and undecided"
+            }
+          ]
+        },
+        {
+          "number": 21,
+          "text": "Would you say you are more",
+          "options": [
+            {
+              "key": "a",
+              "text": "serious and determined"
+            },
+            {
+              "key": "b",
+              "text": "easy-going"
+            }
+          ]
+        },
+        {
+          "number": 22,
+          "text": "In phoning do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "rarely think about what you will say"
+            },
+            {
+              "key": "b",
+              "text": "rehearse what you’ll say"
+            }
+          ]
+        },
+        {
+          "number": 23,
+          "text": "Facts",
+          "options": [
+            {
+              "key": "a",
+              "text": "are valuable in themselves"
+            },
+            {
+              "key": "b",
+              "text": "are useful because they illustrate principles"
+            }
+          ]
+        },
+        {
+          "number": 24,
+          "text": "Are visionaries",
+          "options": [
+            {
+              "key": "a",
+              "text": "somewhat annoying"
+            },
+            {
+              "key": "b",
+              "text": "rather fascinating"
+            }
+          ]
+        },
+        {
+          "number": 25,
+          "text": "Are you more often",
+          "options": [
+            {
+              "key": "a",
+              "text": "a cool-headed person"
+            },
+            {
+              "key": "b",
+              "text": "a warm-hearted person"
+            }
+          ]
+        },
+        {
+          "number": 26,
+          "text": "Is it worse to be",
+          "options": [
+            {
+              "key": "a",
+              "text": "unjust"
+            },
+            {
+              "key": "b",
+              "text": "without mercy for others"
+            }
+          ]
+        },
+        {
+          "number": 27,
+          "text": "Should one usually let events occur",
+          "options": [
+            {
+              "key": "a",
+              "text": "by careful selection and choice"
+            },
+            {
+              "key": "b",
+              "text": "randomly and by chance"
+            }
+          ]
+        },
+        {
+          "number": 28,
+          "text": "Do you feel better about",
+          "options": [
+            {
+              "key": "a",
+              "text": "having purchased something"
+            },
+            {
+              "key": "b",
+              "text": "having the option to buy something"
+            }
+          ]
+        },
+        {
+          "number": 29,
+          "text": "In company do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "initiate the conversation"
+            },
+            {
+              "key": "b",
+              "text": "wait to be approached"
+            }
+          ]
+        },
+        {
+          "number": 30,
+          "text": "Common sense is",
+          "options": [
+            {
+              "key": "a",
+              "text": "rarely mistaken"
+            },
+            {
+              "key": "b",
+              "text": "frequently mistaken and unreliable"
+            }
+          ]
+        },
+        {
+          "number": 31,
+          "text": "Children often do not",
+          "options": [
+            {
+              "key": "a",
+              "text": "make themselves useful enough"
+            },
+            {
+              "key": "b",
+              "text": "exercise their fantasy enough"
+            }
+          ]
+        },
+        {
+          "number": 32,
+          "text": "In making decision do you feel more comfortable with",
+          "options": [
+            {
+              "key": "a",
+              "text": "standards"
+            },
+            {
+              "key": "b",
+              "text": "feelings"
+            }
+          ]
+        },
+        {
+          "number": 33,
+          "text": "Are you more",
+          "options": [
+            {
+              "key": "a",
+              "text": "firm than gentles"
+            },
+            {
+              "key": "b",
+              "text": "gentle than firm"
+            }
+          ]
+        },
+        {
+          "number": 34,
+          "text": "Which is more admirable:",
+          "options": [
+            {
+              "key": "a",
+              "text": "the ability to organize and be methodical"
+            },
+            {
+              "key": "b",
+              "text": "the ability to adapt and adjust quickly"
+            }
+          ]
+        },
+        {
+          "number": 35,
+          "text": "Do you put more value on what is",
+          "options": [
+            {
+              "key": "a",
+              "text": "definite"
+            },
+            {
+              "key": "b",
+              "text": "open-ended"
+            }
+          ]
+        },
+        {
+          "number": 36,
+          "text": "Does new and non-routine interaction with others",
+          "options": [
+            {
+              "key": "a",
+              "text": "stimulate and energize you"
+            },
+            {
+              "key": "b",
+              "text": "leave you feeling tied"
+            }
+          ]
+        },
+        {
+          "number": 37,
+          "text": "Are you more frequently",
+          "options": [
+            {
+              "key": "a",
+              "text": "a practical sort of person"
+            },
+            {
+              "key": "b",
+              "text": "a fanciful sort of person"
+            }
+          ]
+        },
+        {
+          "number": 38,
+          "text": "Are you more likely to",
+          "options": [
+            {
+              "key": "a",
+              "text": "see how others are useful"
+            },
+            {
+              "key": "b",
+              "text": "see how others see"
+            }
+          ]
+        },
+        {
+          "number": 39,
+          "text": "Which is more satisfying:",
+          "options": [
+            {
+              "key": "a",
+              "text": "to discuss an issue thoroughly"
+            },
+            {
+              "key": "b",
+              "text": "to arrive at agreement on an issue"
+            }
+          ]
+        },
+        {
+          "number": 40,
+          "text": "Which rules your more:",
+          "options": [
+            {
+              "key": "a",
+              "text": "your head"
+            },
+            {
+              "key": "b",
+              "text": "your heart"
+            }
+          ]
+        },
+        {
+          "number": 41,
+          "text": "Are you more comfortable with work that is",
+          "options": [
+            {
+              "key": "a",
+              "text": "contracted and agreed upon"
+            },
+            {
+              "key": "b",
+              "text": "done on a casual basis"
+            }
+          ]
+        },
+        {
+          "number": 42,
+          "text": "Do you tend to look for",
+          "options": [
+            {
+              "key": "a",
+              "text": "the orderly"
+            },
+            {
+              "key": "b",
+              "text": "whatever turns up"
+            }
+          ]
+        },
+        {
+          "number": 43,
+          "text": "Do you prefer",
+          "options": [
+            {
+              "key": "a",
+              "text": "many friends with brief contact"
+            },
+            {
+              "key": "b",
+              "text": "a few friends with more lengthy contact"
+            }
+          ]
+        },
+        {
+          "number": 44,
+          "text": "Which has more value for you?",
+          "options": [
+            {
+              "key": "a",
+              "text": "Accurate facts"
+            },
+            {
+              "key": "b",
+              "text": "Theoretical principles"
+            }
+          ]
+        },
+        {
+          "number": 45,
+          "text": "Are you more interested in",
+          "options": [
+            {
+              "key": "a",
+              "text": "production and distribution"
+            },
+            {
+              "key": "b",
+              "text": "design and research"
+            }
+          ]
+        },
+        {
+          "number": 46,
+          "text": "Which is more of a compliment:",
+          "options": [
+            {
+              "key": "a",
+              "text": "“That person is very logical”"
+            },
+            {
+              "key": "b",
+              "text": "“That person is gentle and caring”"
+            }
+          ]
+        },
+        {
+          "number": 47,
+          "text": "Which do you value most in yourself?",
+          "options": [
+            {
+              "key": "a",
+              "text": "being unwavering"
+            },
+            {
+              "key": "b",
+              "text": "being devoted"
+            }
+          ]
+        },
+        {
+          "number": 48,
+          "text": "Do you more often prefer the",
+          "options": [
+            {
+              "key": "a",
+              "text": "final and unalterable statement"
+            },
+            {
+              "key": "b",
+              "text": "tentative and preliminary statement"
+            }
+          ]
+        },
+        {
+          "number": 49,
+          "text": "Are you more comfortable",
+          "options": [
+            {
+              "key": "a",
+              "text": "after a decision"
+            },
+            {
+              "key": "b",
+              "text": "before a decision"
+            }
+          ]
+        },
+        {
+          "number": 50,
+          "text": "Do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "speak easily and at length with strangers"
+            },
+            {
+              "key": "b",
+              "text": "find little to say to strangers"
+            }
+          ]
+        },
+        {
+          "number": 51,
+          "text": "Are you more likely to trust your",
+          "options": [
+            {
+              "key": "a",
+              "text": "experience"
+            },
+            {
+              "key": "b",
+              "text": "hunch"
+            }
+          ]
+        },
+        {
+          "number": 52,
+          "text": "Do you feel",
+          "options": [
+            {
+              "key": "a",
+              "text": "more practical than creative"
+            },
+            {
+              "key": "b",
+              "text": "more creative than practical"
+            }
+          ]
+        },
+        {
+          "number": 53,
+          "text": "Which person is more to be complimented: one of",
+          "options": [
+            {
+              "key": "a",
+              "text": "clear reason"
+            },
+            {
+              "key": "b",
+              "text": "strong feeling"
+            }
+          ]
+        },
+        {
+          "number": 54,
+          "text": "Are you inclined more to be",
+          "options": [
+            {
+              "key": "a",
+              "text": "fair minded"
+            },
+            {
+              "key": "b",
+              "text": "sympathetic"
+            }
+          ]
+        },
+        {
+          "number": 55,
+          "text": "Is it preferable mostly to",
+          "options": [
+            {
+              "key": "a",
+              "text": "make sure things are arranged"
+            },
+            {
+              "key": "b",
+              "text": "just let things happen"
+            }
+          ]
+        },
+        {
+          "number": 56,
+          "text": "In relationships should most things be",
+          "options": [
+            {
+              "key": "a",
+              "text": "renegotiable"
+            },
+            {
+              "key": "b",
+              "text": "random and circumstantial"
+            }
+          ]
+        },
+        {
+          "number": 57,
+          "text": "When the phone rings do you",
+          "options": [
+            {
+              "key": "a",
+              "text": "hasten to get it first"
+            },
+            {
+              "key": "b",
+              "text": "hope someone else will answer"
+            }
+          ]
+        },
+        {
+          "number": 58,
+          "text": "Do you prize more in yourself",
+          "options": [
+            {
+              "key": "a",
+              "text": "a strong sense of reality"
+            },
+            {
+              "key": "b",
+              "text": "a vivid imagination"
+            }
+          ]
+        },
+        {
+          "number": 59,
+          "text": "Are you drawn more to",
+          "options": [
+            {
+              "key": "a",
+              "text": "fundamentals"
+            },
+            {
+              "key": "b",
+              "text": "overtones and nuance"
+            }
+          ]
+        },
+        {
+          "number": 60,
+          "text": "Which seems the greatest error",
+          "options": [
+            {
+              "key": "a",
+              "text": "to be too passionate"
+            },
+            {
+              "key": "b",
+              "text": "to be too objective"
+            }
+          ]
+        },
+        {
+          "number": 61,
+          "text": "Do you see yourself as basically",
+          "options": [
+            {
+              "key": "a",
+              "text": "hard-headed"
+            },
+            {
+              "key": "b",
+              "text": "soft-hearted"
+            }
+          ]
+        },
+        {
+          "number": 62,
+          "text": "Which situation appeals to you more:",
+          "options": [
+            {
+              "key": "a",
+              "text": "the structured and scheduled"
+            },
+            {
+              "key": "b",
+              "text": "the unstructured and unscheduled"
+            }
+          ]
+        },
+        {
+          "number": 63,
+          "text": "Are you a person that is more",
+          "options": [
+            {
+              "key": "a",
+              "text": "organized than playful"
+            },
+            {
+              "key": "b",
+              "text": "playful than organized"
+            }
+          ]
+        },
+        {
+          "number": 64,
+          "text": "Are you more inclined to be",
+          "options": [
+            {
+              "key": "a",
+              "text": "easy to approach"
+            },
+            {
+              "key": "b",
+              "text": "somewhat reserved"
+            }
+          ]
+        },
+        {
+          "number": 65,
+          "text": "In writings do you prefer",
+          "options": [
+            {
+              "key": "a",
+              "text": "the more literal"
+            },
+            {
+              "key": "b",
+              "text": "the more figurative"
+            }
+          ]
+        },
+        {
+          "number": 66,
+          "text": "Is it harder for you to",
+          "options": [
+            {
+              "key": "a",
+              "text": "identify with others"
+            },
+            {
+              "key": "b",
+              "text": "utilize others"
+            }
+          ]
+        },
+        {
+          "number": 67,
+          "text": "Which do you wish more for yourself",
+          "options": [
+            {
+              "key": "a",
+              "text": "clarity of reason"
+            },
+            {
+              "key": "b",
+              "text": "strength of compassion"
+            }
+          ]
+        },
+        {
+          "number": 68,
+          "text": "Which is the greater fault:",
+          "options": [
+            {
+              "key": "a",
+              "text": "being indiscriminate"
+            },
+            {
+              "key": "b",
+              "text": "being critical"
+            }
+          ]
+        },
+        {
+          "number": 69,
+          "text": "Do you prefer the",
+          "options": [
+            {
+              "key": "a",
+              "text": "planned event"
+            },
+            {
+              "key": "b",
+              "text": "unplanned event"
+            }
+          ]
+        },
+        {
+          "number": 70,
+          "text": "Do you tend to be more",
+          "options": [
+            {
+              "key": "a",
+              "text": "deliberate than spontaneous"
+            },
+            {
+              "key": "b",
+              "text": "spontaneous than deliberate"
+            }
+          ]
+        }
+      ],
+      "scoring": {
+        "source_summary": "The source answer sheet groups question numbers by repeated sequences (1,8,...64; 2,9,...65; etc.), tallies a/b answers, aggregates groups 2+3 for S/N, groups 4+5 for T/F, and groups 6+7 for J/P, then chooses the larger total in each pair. The PDF does not include approved golden test cases.",
+        "reported_type_codes": [
+          "INFP",
+          "ISFP",
+          "INTP",
+          "ISTP",
+          "ENFP",
+          "ESFP",
+          "ENTP",
+          "ESTP",
+          "INFJ",
+          "ISFJ",
+          "INTJ",
+          "ISTJ",
+          "ENFJ",
+          "ESFJ",
+          "ENTJ",
+          "ESTJ"
+        ],
+        "production_status": "Do not release scoring until exact implementation is validated against an authorised key and approved expected-output cases.",
+        "source_identity_note": "The user identifies this module as MBTI, but the PDF itself calls it 'Personality Type Identification Using Psychometric Test' and does not establish that it is the official/licensed Myers-Briggs Type Indicator. Confirm naming, validation and rights with the client before public launch."
+      }
+    },
+    {
+      "id": "holland_riasec",
+      "name": "Holland Career Interest Inventory (RIASEC)",
+      "source_file": "Holland's.pdf",
+      "source_title": "Career Interest Inventory (RIASEC)",
+      "source_pages": "PDF pages 1-3",
+      "status": "transcribed_from_supplied_pdf",
+      "instructions": [
+        "Mark the box for each statement that describes you.",
+        "Do not base answers on whether you have enough education or training to perform the activity.",
+        "Do not base answers on how much money you would make; think about whether you would like or dislike performing the work activity."
+      ],
+      "categories": [
+        {
+          "name": "Realistic",
+          "code": "R",
+          "statements": [
+            {
+              "dimension": "Are you",
+              "text": "Handy"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Active, enjoy sports"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Good with Animals"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Good with Tools"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Fix things"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Read a drawing"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Play a sport"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Put up a Tent"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Build things"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Work outdoors"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Work with Tools"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Use your hands"
+            }
+          ]
+        },
+        {
+          "name": "Investigative",
+          "code": "I",
+          "statements": [
+            {
+              "dimension": "Are you",
+              "text": "Interested in Learning"
+            },
+            {
+              "dimension": "Are you",
+              "text": "One who asks questions"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Alert"
+            },
+            {
+              "dimension": "Are you",
+              "text": "One who likes Science"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Use facts to answer questions"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Think"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Solve math problems"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Use a microscope"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Find things"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Use computers"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Work alone"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Read magazines about computers"
+            }
+          ]
+        },
+        {
+          "name": "Artistic",
+          "code": "A",
+          "statements": [
+            {
+              "dimension": "Are you",
+              "text": "Artistic"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Able to Imagine new things"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Able to Think of new ideas"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Yourself"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Sketch, draw, paint"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Play a musical instrument"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Write stories, sing, act, dance"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Decorate your room"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Attend concerts, art exhibits"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Read"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Work on crafts, make things"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Take pictures"
+            }
+          ]
+        },
+        {
+          "name": "Social",
+          "code": "S",
+          "statements": [
+            {
+              "dimension": "Are you",
+              "text": "Friendly"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Helpful"
+            },
+            {
+              "dimension": "Are you",
+              "text": "A people person"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Kind"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Teach a Child"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Tell people what you need"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Cooperate with others"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Plan an Activity"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Work with other people"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Help people"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Play team sports"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Participate in meetings"
+            }
+          ]
+        },
+        {
+          "name": "Enterprising",
+          "code": "E",
+          "statements": [
+            {
+              "dimension": "Are you",
+              "text": "Confident"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Able to be firm"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Active"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Able to Argue"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Sell things"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Talk to people"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Organize Activities"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Start Projects"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Make decisions"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Plan get-togethers with friends"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Meet important people"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Win an Award"
+            }
+          ]
+        },
+        {
+          "name": "Conventional",
+          "code": "C",
+          "statements": [
+            {
+              "dimension": "Are you",
+              "text": "Neat and Clean"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Accurate"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Careful to be neat"
+            },
+            {
+              "dimension": "Are you",
+              "text": "Careful to do things right"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Follow school rules"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Keep records"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Write letters"
+            },
+            {
+              "dimension": "Can you",
+              "text": "Use a computer"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Use computers"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Work with numbers"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Be exact with words, numbers"
+            },
+            {
+              "dimension": "Like to",
+              "text": "Follow directions"
+            }
+          ]
+        }
+      ],
+      "scoring": {
+        "per_category_max": 12,
+        "levels": [
+          {
+            "label": "High",
+            "min": 9,
+            "max": 12
+          },
+          {
+            "label": "Mid",
+            "min": 5,
+            "max": 8
+          },
+          {
+            "label": "Low",
+            "min": 0,
+            "max": 4
+          }
+        ],
+        "note": "A score is the number of checked statements in that category. This follows the inventory layout and the source interpretation bands. Confirm that each listed statement is intended to count as one point before production.",
+        "source_text_review_required": "The fourth Artistic / Are you statement appears as 'Yourself' in the scan. Preserve the literal string but obtain approved corrected text before production. Confirm each checked statement is worth one point."
+      }
+    },
+    {
+      "id": "vark_learning_styles",
+      "name": "VARK Learning Styles Questionnaire",
+      "source_file": "Learning Style.pdf",
+      "source_title": "Learning Styles Questionnaire",
+      "source_pages": "PDF pages 1-3",
+      "status": "transcribed_from_supplied_pdf_with_question_1_unscored_per_key",
+      "instructions": [
+        "Choose the answer which best explains your preference.",
+        "The questionnaire says more than one answer may be selected if a single answer does not match your perception.",
+        "Question 15 in the supplied PDF is an instruction: “Ignore question 1.” It is not a question with answer options."
+      ],
+      "questions": [
+        {
+          "number": 1,
+          "text": "How many syllables are in your first name?",
+          "options": [
+            {
+              "key": "a",
+              "text": "one",
+              "vark_category": null
+            },
+            {
+              "key": "b",
+              "text": "two",
+              "vark_category": null
+            },
+            {
+              "key": "c",
+              "text": "three",
+              "vark_category": null
+            },
+            {
+              "key": "d",
+              "text": "more than three",
+              "vark_category": null
+            }
+          ]
+        },
+        {
+          "number": 2,
+          "text": "You are about to give directions to a person who is standing with you. They are staying in a hotel in town and want to visit your house later. They have a rental car. You would:",
+          "options": [
+            {
+              "key": "a",
+              "text": "draw a map on paper",
+              "vark_category": "V"
+            },
+            {
+              "key": "b",
+              "text": "tell them the directions",
+              "vark_category": "A"
+            },
+            {
+              "key": "c",
+              "text": "write down the directions (without a map)",
+              "vark_category": "R"
+            },
+            {
+              "key": "d",
+              "text": "collect them from the hotel in my car",
+              "vark_category": "K"
+            }
+          ]
+        },
+        {
+          "number": 3,
+          "text": "You are not sure whether a word should be spelled ‘dependent’ or ‘dependant’. I would:",
+          "options": [
+            {
+              "key": "a",
+              "text": "look it up in the dictionary",
+              "vark_category": "R"
+            },
+            {
+              "key": "b",
+              "text": "see the word in my mind and choose the way it looks",
+              "vark_category": "V"
+            },
+            {
+              "key": "c",
+              "text": "sound it out in my mind",
+              "vark_category": "A"
+            },
+            {
+              "key": "d",
+              "text": "write both versions down on paper and choose one",
+              "vark_category": "K"
+            }
+          ]
+        },
+        {
+          "number": 4,
+          "text": "You have just received the latest copy of a magazine with an itinerary for a conference, this is of interest to someone else. You would:",
+          "options": [
+            {
+              "key": "a",
+              "text": "phone them immediately",
+              "vark_category": "A"
+            },
+            {
+              "key": "b",
+              "text": "send them a copy of the printed itinerary",
+              "vark_category": "R"
+            },
+            {
+              "key": "c",
+              "text": "show them on a map of the world",
+              "vark_category": "V"
+            },
+            {
+              "key": "d",
+              "text": "share what I plan to do at each place I visit",
+              "vark_category": "K"
+            }
+          ]
+        },
+        {
+          "number": 5,
+          "text": "You are going to cook something as a special treat for your family. You would:",
+          "options": [
+            {
+              "key": "a",
+              "text": "cook something familiar without the need for instructions",
+              "vark_category": "K"
+            },
+            {
+              "key": "b",
+              "text": "thumb through the cookbook looking for ideas from the pictures",
+              "vark_category": "V"
+            },
+            {
+              "key": "c",
+              "text": "refer to a specific cookbook where there is a good recipe",
+              "vark_category": "R"
+            }
+          ]
+        },
+        {
+          "number": 6,
+          "text": "A group of students from another school has been assigned to you to find out about the geology of your local area. You would:",
+          "options": [
+            {
+              "key": "a",
+              "text": "drive them to a wildlife reserve or park",
+              "vark_category": "K"
+            },
+            {
+              "key": "b",
+              "text": "show them slides and photographs",
+              "vark_category": "V"
+            },
+            {
+              "key": "c",
+              "text": "give them pamphlets or a book on wildlife reserves or parks",
+              "vark_category": "R"
+            },
+            {
+              "key": "d",
+              "text": "give them a talk on wildlife reserves or parks",
+              "vark_category": "A"
+            }
+          ]
+        },
+        {
+          "number": 7,
+          "text": "You are about to purchase a new compass clinometer. Other than price, what would most influence your decision?",
+          "options": [
+            {
+              "key": "a",
+              "text": "the salesperson telling you what you want to know",
+              "vark_category": "A"
+            },
+            {
+              "key": "b",
+              "text": "reading the details about it in a journal",
+              "vark_category": "R"
+            },
+            {
+              "key": "c",
+              "text": "playing with the controls and listening to it (road testing it)",
+              "vark_category": "K"
+            },
+            {
+              "key": "d",
+              "text": "it looks really smart and fashionable",
+              "vark_category": "V"
+            }
+          ]
+        },
+        {
+          "number": 8,
+          "text": "Recall a time in your life when you learned how to do something like playing a new board game. Try to avoid choosing a very physical skill, eg. riding a bike. You learned best by:",
+          "options": [
+            {
+              "key": "a",
+              "text": "visual clues – pictures, diagrams, charts",
+              "vark_category": "V"
+            },
+            {
+              "key": "b",
+              "text": "written instructions",
+              "vark_category": "R"
+            },
+            {
+              "key": "c",
+              "text": "listening to somebody explaining it",
+              "vark_category": "A"
+            },
+            {
+              "key": "d",
+              "text": "doing it or trying it",
+              "vark_category": "K"
+            }
+          ]
+        },
+        {
+          "number": 9,
+          "text": "You have an eye problem. You would prefer the doctor to:",
+          "options": [
+            {
+              "key": "a",
+              "text": "tell me what is wrong",
+              "vark_category": "A"
+            },
+            {
+              "key": "b",
+              "text": "show me a diagram of what is wrong",
+              "vark_category": "V"
+            },
+            {
+              "key": "c",
+              "text": "use a model to show what is wrong",
+              "vark_category": "K"
+            }
+          ]
+        },
+        {
+          "number": 10,
+          "text": "You are about to learn to use a new program on a computer. You would:",
+          "options": [
+            {
+              "key": "a",
+              "text": "sit down at the keyboard and begin to experiment with the program features",
+              "vark_category": "K"
+            },
+            {
+              "key": "b",
+              "text": "read the manual which comes with the program",
+              "vark_category": "R"
+            },
+            {
+              "key": "c",
+              "text": "telephone a friend and ask questions about it",
+              "vark_category": "A"
+            }
+          ]
+        },
+        {
+          "number": 11,
+          "text": "You are staying in a hotel and have a rental car. You would like to visit friends whose address/location you do not know. You would like them to:",
+          "options": [
+            {
+              "key": "a",
+              "text": "draw a map on paper",
+              "vark_category": "V"
+            },
+            {
+              "key": "b",
+              "text": "tell directions",
+              "vark_category": "A"
+            },
+            {
+              "key": "c",
+              "text": "write down the directions (without a map)",
+              "vark_category": "R"
+            },
+            {
+              "key": "d",
+              "text": "collect me from the hotel in their car",
+              "vark_category": "K"
+            }
+          ]
+        },
+        {
+          "number": 12,
+          "text": "Apart from the price, what would most influence your decision to buy a particular textbook?",
+          "options": [
+            {
+              "key": "a",
+              "text": "I have used a copy before",
+              "vark_category": "K"
+            },
+            {
+              "key": "b",
+              "text": "a friend talking about it",
+              "vark_category": "A"
+            },
+            {
+              "key": "c",
+              "text": "quickly reading parts of it",
+              "vark_category": "R"
+            },
+            {
+              "key": "d",
+              "text": "the way it looks is appealing",
+              "vark_category": "V"
+            }
+          ]
+        },
+        {
+          "number": 13,
+          "text": "A new movie has arrived in town. What would most influence your decision to go (or not go)?",
+          "options": [
+            {
+              "key": "a",
+              "text": "I heard a radio review of it",
+              "vark_category": "A"
+            },
+            {
+              "key": "b",
+              "text": "I read a review of it",
+              "vark_category": "R"
+            },
+            {
+              "key": "c",
+              "text": "I saw a preview of it",
+              "vark_category": "V"
+            }
+          ]
+        },
+        {
+          "number": 14,
+          "text": "Do you prefer a lecturer who likes to use:",
+          "options": [
+            {
+              "key": "a",
+              "text": "a textbook, handouts, readings",
+              "vark_category": "R"
+            },
+            {
+              "key": "b",
+              "text": "flow diagrams, charts, graphs",
+              "vark_category": "V"
+            },
+            {
+              "key": "c",
+              "text": "field trips, labs, practical sessions",
+              "vark_category": "K"
+            },
+            {
+              "key": "d",
+              "text": "discussion, guest speakers",
+              "vark_category": "A"
+            }
+          ]
+        }
+      ],
+      "scoring": {
+        "category_names": {
+          "V": "Visual",
+          "A": "Aural",
+          "R": "Read/Write",
+          "K": "Kinesthetic"
+        },
+        "answer_key": {
+          "2": [
+            {
+              "option": "a",
+              "category": "V"
+            },
+            {
+              "option": "b",
+              "category": "A"
+            },
+            {
+              "option": "c",
+              "category": "R"
+            },
+            {
+              "option": "d",
+              "category": "K"
+            }
+          ],
+          "3": [
+            {
+              "option": "a",
+              "category": "R"
+            },
+            {
+              "option": "b",
+              "category": "V"
+            },
+            {
+              "option": "c",
+              "category": "A"
+            },
+            {
+              "option": "d",
+              "category": "K"
+            }
+          ],
+          "4": [
+            {
+              "option": "a",
+              "category": "A"
+            },
+            {
+              "option": "b",
+              "category": "R"
+            },
+            {
+              "option": "c",
+              "category": "V"
+            },
+            {
+              "option": "d",
+              "category": "K"
+            }
+          ],
+          "5": [
+            {
+              "option": "a",
+              "category": "K"
+            },
+            {
+              "option": "b",
+              "category": "V"
+            },
+            {
+              "option": "c",
+              "category": "R"
+            }
+          ],
+          "6": [
+            {
+              "option": "a",
+              "category": "K"
+            },
+            {
+              "option": "b",
+              "category": "V"
+            },
+            {
+              "option": "c",
+              "category": "R"
+            },
+            {
+              "option": "d",
+              "category": "A"
+            }
+          ],
+          "7": [
+            {
+              "option": "a",
+              "category": "A"
+            },
+            {
+              "option": "b",
+              "category": "R"
+            },
+            {
+              "option": "c",
+              "category": "K"
+            },
+            {
+              "option": "d",
+              "category": "V"
+            }
+          ],
+          "8": [
+            {
+              "option": "a",
+              "category": "V"
+            },
+            {
+              "option": "b",
+              "category": "R"
+            },
+            {
+              "option": "c",
+              "category": "A"
+            },
+            {
+              "option": "d",
+              "category": "K"
+            }
+          ],
+          "9": [
+            {
+              "option": "a",
+              "category": "A"
+            },
+            {
+              "option": "b",
+              "category": "V"
+            },
+            {
+              "option": "c",
+              "category": "K"
+            }
+          ],
+          "10": [
+            {
+              "option": "a",
+              "category": "K"
+            },
+            {
+              "option": "b",
+              "category": "R"
+            },
+            {
+              "option": "c",
+              "category": "A"
+            }
+          ],
+          "11": [
+            {
+              "option": "a",
+              "category": "V"
+            },
+            {
+              "option": "b",
+              "category": "A"
+            },
+            {
+              "option": "c",
+              "category": "R"
+            },
+            {
+              "option": "d",
+              "category": "K"
+            }
+          ],
+          "12": [
+            {
+              "option": "a",
+              "category": "K"
+            },
+            {
+              "option": "b",
+              "category": "A"
+            },
+            {
+              "option": "c",
+              "category": "R"
+            },
+            {
+              "option": "d",
+              "category": "V"
+            }
+          ],
+          "13": [
+            {
+              "option": "a",
+              "category": "A"
+            },
+            {
+              "option": "b",
+              "category": "R"
+            },
+            {
+              "option": "c",
+              "category": "V"
+            }
+          ],
+          "14": [
+            {
+              "option": "a",
+              "category": "R"
+            },
+            {
+              "option": "b",
+              "category": "V"
+            },
+            {
+              "option": "c",
+              "category": "K"
+            },
+            {
+              "option": "d",
+              "category": "A"
+            }
+          ]
+        },
+        "method": "Count each selected option’s assigned category letter. Multiple selections are permitted by the source, so one response can contribute to multiple category scores.",
+        "known_source_gaps": [
+          "The supplied scoring chart has no scoring assignments for Question 1; keep it unscored as indicated by the chart unless the client supplies an approved key.",
+          "The source lists “15. Ignore question 1.” but provides no question or scoring key for Question 15. Do not render this as a question."
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,404 @@
+{
+  "assessmentId": "vark_learning_styles",
+  "questionnaireVersion": "1.0.0",
+  "name": "VARK Learning Styles Questionnaire",
+  "sourceFile": "Learning Style.pdf",
+  "sourceTitle": "Learning Styles Questionnaire",
+  "sourcePages": "PDF pages 1-3",
+  "sourceStatus": "transcribed_from_supplied_pdf_with_question_1_unscored_per_key",
+  "instructions": [
+    "Choose the answer which best explains your preference.",
+    "The questionnaire says more than one answer may be selected if a single answer does not match your perception.",
+    "Question 15 in the supplied PDF is an instruction: “Ignore question 1.” It is not a question with answer options."
+  ],
+  "sections": [
+    {
+      "id": "main",
+      "title": null,
+      "groups": [
+        {
+          "id": "all",
+          "title": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "vark_q01",
+      "number": 1,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "How many syllables are in your first name?",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": false,
+      "options": [
+        {
+          "key": "a",
+          "text": "one"
+        },
+        {
+          "key": "b",
+          "text": "two"
+        },
+        {
+          "key": "c",
+          "text": "three"
+        },
+        {
+          "key": "d",
+          "text": "more than three"
+        }
+      ]
+    },
+    {
+      "id": "vark_q02",
+      "number": 2,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You are about to give directions to a person who is standing with you. They are staying in a hotel in town and want to visit your house later. They have a rental car. You would:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "draw a map on paper"
+        },
+        {
+          "key": "b",
+          "text": "tell them the directions"
+        },
+        {
+          "key": "c",
+          "text": "write down the directions (without a map)"
+        },
+        {
+          "key": "d",
+          "text": "collect them from the hotel in my car"
+        }
+      ]
+    },
+    {
+      "id": "vark_q03",
+      "number": 3,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You are not sure whether a word should be spelled ‘dependent’ or ‘dependant’. I would:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "look it up in the dictionary"
+        },
+        {
+          "key": "b",
+          "text": "see the word in my mind and choose the way it looks"
+        },
+        {
+          "key": "c",
+          "text": "sound it out in my mind"
+        },
+        {
+          "key": "d",
+          "text": "write both versions down on paper and choose one"
+        }
+      ]
+    },
+    {
+      "id": "vark_q04",
+      "number": 4,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You have just received the latest copy of a magazine with an itinerary for a conference, this is of interest to someone else. You would:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "phone them immediately"
+        },
+        {
+          "key": "b",
+          "text": "send them a copy of the printed itinerary"
+        },
+        {
+          "key": "c",
+          "text": "show them on a map of the world"
+        },
+        {
+          "key": "d",
+          "text": "share what I plan to do at each place I visit"
+        }
+      ]
+    },
+    {
+      "id": "vark_q05",
+      "number": 5,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You are going to cook something as a special treat for your family. You would:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "cook something familiar without the need for instructions"
+        },
+        {
+          "key": "b",
+          "text": "thumb through the cookbook looking for ideas from the pictures"
+        },
+        {
+          "key": "c",
+          "text": "refer to a specific cookbook where there is a good recipe"
+        }
+      ]
+    },
+    {
+      "id": "vark_q06",
+      "number": 6,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "A group of students from another school has been assigned to you to find out about the geology of your local area. You would:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "drive them to a wildlife reserve or park"
+        },
+        {
+          "key": "b",
+          "text": "show them slides and photographs"
+        },
+        {
+          "key": "c",
+          "text": "give them pamphlets or a book on wildlife reserves or parks"
+        },
+        {
+          "key": "d",
+          "text": "give them a talk on wildlife reserves or parks"
+        }
+      ]
+    },
+    {
+      "id": "vark_q07",
+      "number": 7,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You are about to purchase a new compass clinometer. Other than price, what would most influence your decision?",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "the salesperson telling you what you want to know"
+        },
+        {
+          "key": "b",
+          "text": "reading the details about it in a journal"
+        },
+        {
+          "key": "c",
+          "text": "playing with the controls and listening to it (road testing it)"
+        },
+        {
+          "key": "d",
+          "text": "it looks really smart and fashionable"
+        }
+      ]
+    },
+    {
+      "id": "vark_q08",
+      "number": 8,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Recall a time in your life when you learned how to do something like playing a new board game. Try to avoid choosing a very physical skill, eg. riding a bike. You learned best by:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "visual clues – pictures, diagrams, charts"
+        },
+        {
+          "key": "b",
+          "text": "written instructions"
+        },
+        {
+          "key": "c",
+          "text": "listening to somebody explaining it"
+        },
+        {
+          "key": "d",
+          "text": "doing it or trying it"
+        }
+      ]
+    },
+    {
+      "id": "vark_q09",
+      "number": 9,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You have an eye problem. You would prefer the doctor to:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "tell me what is wrong"
+        },
+        {
+          "key": "b",
+          "text": "show me a diagram of what is wrong"
+        },
+        {
+          "key": "c",
+          "text": "use a model to show what is wrong"
+        }
+      ]
+    },
+    {
+      "id": "vark_q10",
+      "number": 10,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You are about to learn to use a new program on a computer. You would:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "sit down at the keyboard and begin to experiment with the program features"
+        },
+        {
+          "key": "b",
+          "text": "read the manual which comes with the program"
+        },
+        {
+          "key": "c",
+          "text": "telephone a friend and ask questions about it"
+        }
+      ]
+    },
+    {
+      "id": "vark_q11",
+      "number": 11,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "You are staying in a hotel and have a rental car. You would like to visit friends whose address/location you do not know. You would like them to:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "draw a map on paper"
+        },
+        {
+          "key": "b",
+          "text": "tell directions"
+        },
+        {
+          "key": "c",
+          "text": "write down the directions (without a map)"
+        },
+        {
+          "key": "d",
+          "text": "collect me from the hotel in their car"
+        }
+      ]
+    },
+    {
+      "id": "vark_q12",
+      "number": 12,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Apart from the price, what would most influence your decision to buy a particular textbook?",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "I have used a copy before"
+        },
+        {
+          "key": "b",
+          "text": "a friend talking about it"
+        },
+        {
+          "key": "c",
+          "text": "quickly reading parts of it"
+        },
+        {
+          "key": "d",
+          "text": "the way it looks is appealing"
+        }
+      ]
+    },
+    {
+      "id": "vark_q13",
+      "number": 13,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "A new movie has arrived in town. What would most influence your decision to go (or not go)?",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "I heard a radio review of it"
+        },
+        {
+          "key": "b",
+          "text": "I read a review of it"
+        },
+        {
+          "key": "c",
+          "text": "I saw a preview of it"
+        }
+      ]
+    },
+    {
+      "id": "vark_q14",
+      "number": 14,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you prefer a lecturer who likes to use:",
+      "responseType": "multi_select",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "a textbook, handouts, readings"
+        },
+        {
+          "key": "b",
+          "text": "flow diagrams, charts, graphs"
+        },
+        {
+          "key": "c",
+          "text": "field trips, labs, practical sessions"
+        },
+        {
+          "key": "d",
+          "text": "discussion, guest speakers"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "assessmentId": "vark_learning_styles",
+  "questionnaireVersion": "1.0.0",
+  "scoringVersion": "vark-scoring-1.0.0",
+  "approval": "engineering",
+  "note": "answers maps source question number to the selected option letters. Expected counts computed from the source answer_key; Q1 has no key.",
+  "cases": [
+    {
+      "name": "first option everywhere",
+      "answers": {
+        "1": "a",
+        "2": "a",
+        "3": "a",
+        "4": "a",
+        "5": "a",
+        "6": "a",
+        "7": "a",
+        "8": "a",
+        "9": "a",
+        "10": "a",
+        "11": "a",
+        "12": "a",
+        "13": "a",
+        "14": "a"
+      },
+      "expected": {
+        "counts": {
+          "V": 3,
+          "A": 4,
+          "R": 2,
+          "K": 4
+        },
+        "total": 13,
+        "highest": [
+          "A",
+          "K"
+        ]
+      }
+    },
+    {
+      "name": "every option everywhere",
+      "answers": {
+        "1": "abcd",
+        "2": "abcd",
+        "3": "abcd",
+        "4": "abcd",
+        "5": "abc",
+        "6": "abcd",
+        "7": "abcd",
+        "8": "abcd",
+        "9": "abc",
+        "10": "abc",
+        "11": "abcd",
+        "12": "abcd",
+        "13": "abc",
+        "14": "abcd"
+      },
+      "expected": {
+        "counts": {
+          "V": 12,
+          "A": 12,
+          "R": 12,
+          "K": 12
+        },
+        "total": 48,
+        "highest": [
+          "V",
+          "A",
+          "R",
+          "K"
+        ]
+      }
+    },
+    {
+      "name": "multi-select with Q1 selections ignored",
+      "answers": {
+        "1": "abcd",
+        "2": "ad",
+        "3": "a",
+        "4": "a",
+        "5": "a",
+        "6": "a",
+        "7": "a",
+        "8": "bcd",
+        "9": "a",
+        "10": "a",
+        "11": "a",
+        "12": "a",
+        "13": "a",
+        "14": "c"
+      },
+      "expected": {
+        "counts": {
+          "V": 2,
+          "A": 5,
+          "R": 2,
+          "K": 7
+        },
+        "total": 16,
+        "highest": [
+          "K"
+        ]
+      }
+    },
+    {
+      "name": "seeded random multi-select",
+      "answers": {
+        "1": "abd",
+        "2": "a",
+        "3": "acd",
+        "4": "a",
+        "5": "ab",
+        "6": "ac",
+        "7": "abcd",
+        "8": "d",
+        "9": "a",
+        "10": "c",
+        "11": "bc",
+        "12": "ac",
+        "13": "ac",
+        "14": "b"
+      },
+      "expected": {
+        "counts": {
+          "V": 5,
+          "A": 7,
+          "R": 5,
+          "K": 6
+        },
+        "total": 23,
+        "highest": [
+          "A"
+        ]
+      }
+    }
+  ]
+}

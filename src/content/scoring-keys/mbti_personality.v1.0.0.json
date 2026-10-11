@@ -1,0 +1,167 @@
+{
+  "assessmentId": "mbti_personality",
+  "questionnaireVersion": "1.0.0",
+  "groups": [
+    {
+      "group": 1,
+      "questionIds": [
+        "mbti_q001",
+        "mbti_q008",
+        "mbti_q015",
+        "mbti_q022",
+        "mbti_q029",
+        "mbti_q036",
+        "mbti_q043",
+        "mbti_q050",
+        "mbti_q057",
+        "mbti_q064"
+      ]
+    },
+    {
+      "group": 2,
+      "questionIds": [
+        "mbti_q002",
+        "mbti_q009",
+        "mbti_q016",
+        "mbti_q023",
+        "mbti_q030",
+        "mbti_q037",
+        "mbti_q044",
+        "mbti_q051",
+        "mbti_q058",
+        "mbti_q065"
+      ]
+    },
+    {
+      "group": 3,
+      "questionIds": [
+        "mbti_q003",
+        "mbti_q010",
+        "mbti_q017",
+        "mbti_q024",
+        "mbti_q031",
+        "mbti_q038",
+        "mbti_q045",
+        "mbti_q052",
+        "mbti_q059",
+        "mbti_q066"
+      ]
+    },
+    {
+      "group": 4,
+      "questionIds": [
+        "mbti_q004",
+        "mbti_q011",
+        "mbti_q018",
+        "mbti_q025",
+        "mbti_q032",
+        "mbti_q039",
+        "mbti_q046",
+        "mbti_q053",
+        "mbti_q060",
+        "mbti_q067"
+      ]
+    },
+    {
+      "group": 5,
+      "questionIds": [
+        "mbti_q005",
+        "mbti_q012",
+        "mbti_q019",
+        "mbti_q026",
+        "mbti_q033",
+        "mbti_q040",
+        "mbti_q047",
+        "mbti_q054",
+        "mbti_q061",
+        "mbti_q068"
+      ]
+    },
+    {
+      "group": 6,
+      "questionIds": [
+        "mbti_q006",
+        "mbti_q013",
+        "mbti_q020",
+        "mbti_q027",
+        "mbti_q034",
+        "mbti_q041",
+        "mbti_q048",
+        "mbti_q055",
+        "mbti_q062",
+        "mbti_q069"
+      ]
+    },
+    {
+      "group": 7,
+      "questionIds": [
+        "mbti_q007",
+        "mbti_q014",
+        "mbti_q021",
+        "mbti_q028",
+        "mbti_q035",
+        "mbti_q042",
+        "mbti_q049",
+        "mbti_q056",
+        "mbti_q063",
+        "mbti_q070"
+      ]
+    }
+  ],
+  "pairs": [
+    {
+      "pair": "EI",
+      "first": "E",
+      "second": "I",
+      "groups": [
+        1
+      ]
+    },
+    {
+      "pair": "SN",
+      "first": "S",
+      "second": "N",
+      "groups": [
+        2,
+        3
+      ]
+    },
+    {
+      "pair": "TF",
+      "first": "T",
+      "second": "F",
+      "groups": [
+        4,
+        5
+      ]
+    },
+    {
+      "pair": "JP",
+      "first": "J",
+      "second": "P",
+      "groups": [
+        6,
+        7
+      ]
+    }
+  ],
+  "reportedTypeCodes": [
+    "INFP",
+    "ISFP",
+    "INTP",
+    "ISTP",
+    "ENFP",
+    "ESFP",
+    "ENTP",
+    "ESTP",
+    "INFJ",
+    "ISFJ",
+    "INTJ",
+    "ISTJ",
+    "ENFJ",
+    "ESFJ",
+    "ENTJ",
+    "ESTJ"
+  ],
+  "sourceSummary": "The source answer sheet groups question numbers by repeated sequences (1,8,...64; 2,9,...65; etc.), tallies a/b answers, aggregates groups 2+3 for S/N, groups 4+5 for T/F, and groups 6+7 for J/P, then chooses the larger total in each pair. The PDF does not include approved golden test cases."
+}

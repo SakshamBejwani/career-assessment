@@ -1,0 +1,67 @@
+# Single-server deployment: PostgreSQL + one-shot migrations + app + Caddy (automatic HTTPS).
+#   1. cp .env.example .env   and fill it in (APP_URL=https://your-domain, secrets, Razorpay, SMTP, ...)
+#   2. set DOMAIN=your-domain in .env (used by Caddy) and point the domain's DNS A record at this server
+#   3. docker compose up -d --build
+services:
+  db:
+    image: postgres:17-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-app}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-career_assessment}
+    volumes:
+      - db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-app} -d ${POSTGRES_DB:-career_assessment}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  migrate:
+    build: { context: ., target: migrate }
+    env_file: .env
+    environment:
+      DATABASE_PROVIDER: postgresql
+      DATABASE_URL: postgresql://${POSTGRES_USER:-app}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-career_assessment}
+      DATABASE_URL_UNPOOLED: ""
+    depends_on:
+      db: { condition: service_healthy }
+    restart: "no"
+
+  app:
+    build: { context: ., target: runner }
+    restart: unless-stopped
+    env_file: .env
+    environment:
+      DATABASE_PROVIDER: postgresql
+      DATABASE_URL: postgresql://${POSTGRES_USER:-app}:${POSTGRES_PASSWORD}@db:5432/${POSTGRES_DB:-career_assessment}
+      # Long-running server: process background jobs in-process every 30s.
+      JOB_WORKER_INTERVAL_MS: ${JOB_WORKER_INTERVAL_MS:-30000}
+    volumes:
+      - report-files:/app/storage
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    expose:
+      - "3000"
+
+  caddy:
+    image: caddy:2-alpine
+    restart: unless-stopped
+    ports:
+      - "80:80"
+      - "443:443"
+    environment:
+      DOMAIN: ${DOMAIN:-localhost}
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    depends_on:
+      - app
+
+volumes:
+  db-data:
+  report-files:
+  caddy-data:
+  caddy-config:

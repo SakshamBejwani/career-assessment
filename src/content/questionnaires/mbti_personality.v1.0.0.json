@@ -1,0 +1,1429 @@
+{
+  "assessmentId": "mbti_personality",
+  "questionnaireVersion": "1.0.0",
+  "name": "MBTI / Personality Type Identification",
+  "sourceFile": "TEST 1 (PERSONALITY).pdf",
+  "sourceTitle": "Personality Type Identification Using Psychometric Test",
+  "sourcePages": "PDF pages 1-6",
+  "sourceStatus": "transcribed_from_supplied_pdf_scoring_requires_validation",
+  "instructions": [
+    "There are no right answers to any of these questions.",
+    "Answer the questions quickly, do not over-analyze them.",
+    "Answer the questions as the way you are, not the way you would like to be seen by others.",
+    "The PDF advises not to look at the scoring sheet until all questions are completed."
+  ],
+  "sections": [
+    {
+      "id": "main",
+      "title": null,
+      "groups": [
+        {
+          "id": "all",
+          "title": null
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "mbti_q001",
+      "number": 1,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "At a party do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "interact with many, including strangers"
+        },
+        {
+          "key": "b",
+          "text": "interact with a few people you know well"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q002",
+      "number": 2,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "realistic than speculative"
+        },
+        {
+          "key": "b",
+          "text": "speculative than realistic"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q003",
+      "number": 3,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Is it worse to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "be someone who likes variety and new ideas"
+        },
+        {
+          "key": "b",
+          "text": "be someone who likes predictable routine"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q004",
+      "number": 4,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more impressed by",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "principles"
+        },
+        {
+          "key": "b",
+          "text": "emotions"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q005",
+      "number": 5,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more drawn towards the",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "convincing"
+        },
+        {
+          "key": "b",
+          "text": "touching"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q006",
+      "number": 6,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you prefer to work",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "on a schedule with a deadlines"
+        },
+        {
+          "key": "b",
+          "text": "whenever you are inspired to work"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q007",
+      "number": 7,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you tend to chose",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "rather carefully"
+        },
+        {
+          "key": "b",
+          "text": "somewhat impulsively"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q008",
+      "number": 8,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "At parties do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "stay late, with increasing energy"
+        },
+        {
+          "key": "b",
+          "text": "leave early, with decreasing energy"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q009",
+      "number": 9,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more attracted to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "practical people"
+        },
+        {
+          "key": "b",
+          "text": "imaginative people"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q010",
+      "number": 10,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more interested in",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "what is actual"
+        },
+        {
+          "key": "b",
+          "text": "what is possible"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q011",
+      "number": 11,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In judging others are you more swayed by",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "laws than circumstances"
+        },
+        {
+          "key": "b",
+          "text": "circumstances than laws"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q012",
+      "number": 12,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In approaching others is your inclination to be somewhat",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "objective"
+        },
+        {
+          "key": "b",
+          "text": "personal"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q013",
+      "number": 13,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "punctual"
+        },
+        {
+          "key": "b",
+          "text": "leisurely"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q014",
+      "number": 14,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Does it bother you having things",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "incomplete"
+        },
+        {
+          "key": "b",
+          "text": "completed"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q015",
+      "number": 15,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In your social groups do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "keep abreast of other’s happenings"
+        },
+        {
+          "key": "b",
+          "text": "get behind on the news"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q016",
+      "number": 16,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In doing ordinary things are you more likely to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "do it the usual way"
+        },
+        {
+          "key": "b",
+          "text": "do it your own way"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q017",
+      "number": 17,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Writers should",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "“say what they mean and mean what they say”"
+        },
+        {
+          "key": "b",
+          "text": "express things more by use of analogy"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q018",
+      "number": 18,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which appeals to you more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "consistency of thought"
+        },
+        {
+          "key": "b",
+          "text": "harmonious human relationships"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q019",
+      "number": 19,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more comfortable in making",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "logical judgments"
+        },
+        {
+          "key": "b",
+          "text": "value judgments"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q020",
+      "number": 20,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you want things",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "settled and decided"
+        },
+        {
+          "key": "b",
+          "text": "unsettled and undecided"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q021",
+      "number": 21,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Would you say you are more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "serious and determined"
+        },
+        {
+          "key": "b",
+          "text": "easy-going"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q022",
+      "number": 22,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In phoning do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "rarely think about what you will say"
+        },
+        {
+          "key": "b",
+          "text": "rehearse what you’ll say"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q023",
+      "number": 23,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Facts",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "are valuable in themselves"
+        },
+        {
+          "key": "b",
+          "text": "are useful because they illustrate principles"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q024",
+      "number": 24,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are visionaries",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "somewhat annoying"
+        },
+        {
+          "key": "b",
+          "text": "rather fascinating"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q025",
+      "number": 25,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more often",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "a cool-headed person"
+        },
+        {
+          "key": "b",
+          "text": "a warm-hearted person"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q026",
+      "number": 26,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Is it worse to be",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "unjust"
+        },
+        {
+          "key": "b",
+          "text": "without mercy for others"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q027",
+      "number": 27,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Should one usually let events occur",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "by careful selection and choice"
+        },
+        {
+          "key": "b",
+          "text": "randomly and by chance"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q028",
+      "number": 28,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you feel better about",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "having purchased something"
+        },
+        {
+          "key": "b",
+          "text": "having the option to buy something"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q029",
+      "number": 29,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In company do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "initiate the conversation"
+        },
+        {
+          "key": "b",
+          "text": "wait to be approached"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q030",
+      "number": 30,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Common sense is",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "rarely mistaken"
+        },
+        {
+          "key": "b",
+          "text": "frequently mistaken and unreliable"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q031",
+      "number": 31,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Children often do not",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "make themselves useful enough"
+        },
+        {
+          "key": "b",
+          "text": "exercise their fantasy enough"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q032",
+      "number": 32,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In making decision do you feel more comfortable with",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "standards"
+        },
+        {
+          "key": "b",
+          "text": "feelings"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q033",
+      "number": 33,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "firm than gentles"
+        },
+        {
+          "key": "b",
+          "text": "gentle than firm"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q034",
+      "number": 34,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which is more admirable:",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "the ability to organize and be methodical"
+        },
+        {
+          "key": "b",
+          "text": "the ability to adapt and adjust quickly"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q035",
+      "number": 35,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you put more value on what is",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "definite"
+        },
+        {
+          "key": "b",
+          "text": "open-ended"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q036",
+      "number": 36,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Does new and non-routine interaction with others",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "stimulate and energize you"
+        },
+        {
+          "key": "b",
+          "text": "leave you feeling tied"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q037",
+      "number": 37,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more frequently",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "a practical sort of person"
+        },
+        {
+          "key": "b",
+          "text": "a fanciful sort of person"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q038",
+      "number": 38,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more likely to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "see how others are useful"
+        },
+        {
+          "key": "b",
+          "text": "see how others see"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q039",
+      "number": 39,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which is more satisfying:",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "to discuss an issue thoroughly"
+        },
+        {
+          "key": "b",
+          "text": "to arrive at agreement on an issue"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q040",
+      "number": 40,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which rules your more:",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "your head"
+        },
+        {
+          "key": "b",
+          "text": "your heart"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q041",
+      "number": 41,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more comfortable with work that is",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "contracted and agreed upon"
+        },
+        {
+          "key": "b",
+          "text": "done on a casual basis"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q042",
+      "number": 42,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you tend to look for",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "the orderly"
+        },
+        {
+          "key": "b",
+          "text": "whatever turns up"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q043",
+      "number": 43,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you prefer",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "many friends with brief contact"
+        },
+        {
+          "key": "b",
+          "text": "a few friends with more lengthy contact"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q044",
+      "number": 44,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which has more value for you?",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "Accurate facts"
+        },
+        {
+          "key": "b",
+          "text": "Theoretical principles"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q045",
+      "number": 45,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more interested in",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "production and distribution"
+        },
+        {
+          "key": "b",
+          "text": "design and research"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q046",
+      "number": 46,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which is more of a compliment:",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "“That person is very logical”"
+        },
+        {
+          "key": "b",
+          "text": "“That person is gentle and caring”"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q047",
+      "number": 47,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which do you value most in yourself?",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "being unwavering"
+        },
+        {
+          "key": "b",
+          "text": "being devoted"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q048",
+      "number": 48,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you more often prefer the",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "final and unalterable statement"
+        },
+        {
+          "key": "b",
+          "text": "tentative and preliminary statement"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q049",
+      "number": 49,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more comfortable",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "after a decision"
+        },
+        {
+          "key": "b",
+          "text": "before a decision"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q050",
+      "number": 50,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "speak easily and at length with strangers"
+        },
+        {
+          "key": "b",
+          "text": "find little to say to strangers"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q051",
+      "number": 51,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more likely to trust your",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "experience"
+        },
+        {
+          "key": "b",
+          "text": "hunch"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q052",
+      "number": 52,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you feel",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "more practical than creative"
+        },
+        {
+          "key": "b",
+          "text": "more creative than practical"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q053",
+      "number": 53,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which person is more to be complimented: one of",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "clear reason"
+        },
+        {
+          "key": "b",
+          "text": "strong feeling"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q054",
+      "number": 54,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you inclined more to be",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "fair minded"
+        },
+        {
+          "key": "b",
+          "text": "sympathetic"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q055",
+      "number": 55,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Is it preferable mostly to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "make sure things are arranged"
+        },
+        {
+          "key": "b",
+          "text": "just let things happen"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q056",
+      "number": 56,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In relationships should most things be",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "renegotiable"
+        },
+        {
+          "key": "b",
+          "text": "random and circumstantial"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q057",
+      "number": 57,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "When the phone rings do you",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "hasten to get it first"
+        },
+        {
+          "key": "b",
+          "text": "hope someone else will answer"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q058",
+      "number": 58,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you prize more in yourself",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "a strong sense of reality"
+        },
+        {
+          "key": "b",
+          "text": "a vivid imagination"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q059",
+      "number": 59,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you drawn more to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "fundamentals"
+        },
+        {
+          "key": "b",
+          "text": "overtones and nuance"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q060",
+      "number": 60,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which seems the greatest error",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "to be too passionate"
+        },
+        {
+          "key": "b",
+          "text": "to be too objective"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q061",
+      "number": 61,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you see yourself as basically",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "hard-headed"
+        },
+        {
+          "key": "b",
+          "text": "soft-hearted"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q062",
+      "number": 62,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which situation appeals to you more:",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "the structured and scheduled"
+        },
+        {
+          "key": "b",
+          "text": "the unstructured and unscheduled"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q063",
+      "number": 63,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you a person that is more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "organized than playful"
+        },
+        {
+          "key": "b",
+          "text": "playful than organized"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q064",
+      "number": 64,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Are you more inclined to be",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "easy to approach"
+        },
+        {
+          "key": "b",
+          "text": "somewhat reserved"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q065",
+      "number": 65,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "In writings do you prefer",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "the more literal"
+        },
+        {
+          "key": "b",
+          "text": "the more figurative"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q066",
+      "number": 66,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Is it harder for you to",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "identify with others"
+        },
+        {
+          "key": "b",
+          "text": "utilize others"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q067",
+      "number": 67,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which do you wish more for yourself",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "clarity of reason"
+        },
+        {
+          "key": "b",
+          "text": "strength of compassion"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q068",
+      "number": 68,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Which is the greater fault:",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "being indiscriminate"
+        },
+        {
+          "key": "b",
+          "text": "being critical"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q069",
+      "number": 69,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you prefer the",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "planned event"
+        },
+        {
+          "key": "b",
+          "text": "unplanned event"
+        }
+      ]
+    },
+    {
+      "id": "mbti_q070",
+      "number": 70,
+      "sectionId": "main",
+      "groupId": "all",
+      "prompt": "Do you tend to be more",
+      "responseType": "single_choice",
+      "required": true,
+      "scored": true,
+      "options": [
+        {
+          "key": "a",
+          "text": "deliberate than spontaneous"
+        },
+        {
+          "key": "b",
+          "text": "spontaneous than deliberate"
+        }
+      ]
+    }
+  ]
+}

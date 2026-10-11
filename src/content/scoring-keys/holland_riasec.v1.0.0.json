@@ -1,0 +1,133 @@
+{
+  "assessmentId": "holland_riasec",
+  "questionnaireVersion": "1.0.0",
+  "categories": [
+    {
+      "code": "R",
+      "name": "Realistic",
+      "questionIds": [
+        "riasec_r_are_01",
+        "riasec_r_are_02",
+        "riasec_r_are_03",
+        "riasec_r_are_04",
+        "riasec_r_can_01",
+        "riasec_r_can_02",
+        "riasec_r_can_03",
+        "riasec_r_can_04",
+        "riasec_r_like_01",
+        "riasec_r_like_02",
+        "riasec_r_like_03",
+        "riasec_r_like_04"
+      ]
+    },
+    {
+      "code": "I",
+      "name": "Investigative",
+      "questionIds": [
+        "riasec_i_are_01",
+        "riasec_i_are_02",
+        "riasec_i_are_03",
+        "riasec_i_are_04",
+        "riasec_i_can_01",
+        "riasec_i_can_02",
+        "riasec_i_can_03",
+        "riasec_i_can_04",
+        "riasec_i_like_01",
+        "riasec_i_like_02",
+        "riasec_i_like_03",
+        "riasec_i_like_04"
+      ]
+    },
+    {
+      "code": "A",
+      "name": "Artistic",
+      "questionIds": [
+        "riasec_a_are_01",
+        "riasec_a_are_02",
+        "riasec_a_are_03",
+        "riasec_a_are_04",
+        "riasec_a_can_01",
+        "riasec_a_can_02",
+        "riasec_a_can_03",
+        "riasec_a_can_04",
+        "riasec_a_like_01",
+        "riasec_a_like_02",
+        "riasec_a_like_03",
+        "riasec_a_like_04"
+      ]
+    },
+    {
+      "code": "S",
+      "name": "Social",
+      "questionIds": [
+        "riasec_s_are_01",
+        "riasec_s_are_02",
+        "riasec_s_are_03",
+        "riasec_s_are_04",
+        "riasec_s_can_01",
+        "riasec_s_can_02",
+        "riasec_s_can_03",
+        "riasec_s_can_04",
+        "riasec_s_like_01",
+        "riasec_s_like_02",
+        "riasec_s_like_03",
+        "riasec_s_like_04"
+      ]
+    },
+    {
+      "code": "E",
+      "name": "Enterprising",
+      "questionIds": [
+        "riasec_e_are_01",
+        "riasec_e_are_02",
+        "riasec_e_are_03",
+        "riasec_e_are_04",
+        "riasec_e_can_01",
+        "riasec_e_can_02",
+        "riasec_e_can_03",
+        "riasec_e_can_04",
+        "riasec_e_like_01",
+        "riasec_e_like_02",
+        "riasec_e_like_03",
+        "riasec_e_like_04"
+      ]
+    },
+    {
+      "code": "C",
+      "name": "Conventional",
+      "questionIds": [
+        "riasec_c_are_01",
+        "riasec_c_are_02",
+        "riasec_c_are_03",
+        "riasec_c_are_04",
+        "riasec_c_can_01",
+        "riasec_c_can_02",
+        "riasec_c_can_03",
+        "riasec_c_can_04",
+        "riasec_c_like_01",
+        "riasec_c_like_02",
+        "riasec_c_like_03",
+        "riasec_c_like_04"
+      ]
+    }
+  ],
+  "perCategoryMax": 12,
+  "levels": [
+    {
+      "label": "High",
+      "min": 9,
+      "max": 12
+    },
+    {
+      "label": "Mid",
+      "min": 5,
+      "max": 8
+    },
+    {
+      "label": "Low",
+      "min": 0,
+      "max": 4
+    }
+  ],
+  "note": "A score is the number of checked statements in that category. This follows the inventory layout and the source interpretation bands. Confirm that each listed statement is intended to count as one point before production."
+}

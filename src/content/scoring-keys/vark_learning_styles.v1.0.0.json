@@ -1,0 +1,90 @@
+{
+  "assessmentId": "vark_learning_styles",
+  "questionnaireVersion": "1.0.0",
+  "categoryNames": {
+    "V": "Visual",
+    "A": "Aural",
+    "R": "Read/Write",
+    "K": "Kinesthetic"
+  },
+  "answerKey": {
+    "vark_q02": {
+      "a": "V",
+      "b": "A",
+      "c": "R",
+      "d": "K"
+    },
+    "vark_q03": {
+      "a": "R",
+      "b": "V",
+      "c": "A",
+      "d": "K"
+    },
+    "vark_q04": {
+      "a": "A",
+      "b": "R",
+      "c": "V",
+      "d": "K"
+    },
+    "vark_q05": {
+      "a": "K",
+      "b": "V",
+      "c": "R"
+    },
+    "vark_q06": {
+      "a": "K",
+      "b": "V",
+      "c": "R",
+      "d": "A"
+    },
+    "vark_q07": {
+      "a": "A",
+      "b": "R",
+      "c": "K",
+      "d": "V"
+    },
+    "vark_q08": {
+      "a": "V",
+      "b": "R",
+      "c": "A",
+      "d": "K"
+    },
+    "vark_q09": {
+      "a": "A",
+      "b": "V",
+      "c": "K"
+    },
+    "vark_q10": {
+      "a": "K",
+      "b": "R",
+      "c": "A"
+    },
+    "vark_q11": {
+      "a": "V",
+      "b": "A",
+      "c": "R",
+      "d": "K"
+    },
+    "vark_q12": {
+      "a": "K",
+      "b": "A",
+      "c": "R",
+      "d": "V"
+    },
+    "vark_q13": {
+      "a": "A",
+      "b": "R",
+      "c": "V"
+    },
+    "vark_q14": {
+      "a": "R",
+      "b": "V",
+      "c": "K",
+      "d": "A"
+    }
+  },
+  "knownSourceGaps": [
+    "The supplied scoring chart has no scoring assignments for Question 1; keep it unscored as indicated by the chart unless the client supplies an approved key.",
+    "The source lists “15. Ignore question 1.” but provides no question or scoring key for Question 15. Do not render this as a question."
+  ]
+}

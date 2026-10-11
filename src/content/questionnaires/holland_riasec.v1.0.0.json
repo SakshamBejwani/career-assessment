@@ -1,0 +1,775 @@
+{
+  "assessmentId": "holland_riasec",
+  "questionnaireVersion": "1.0.0",
+  "name": "Holland Career Interest Inventory (RIASEC)",
+  "sourceFile": "Holland's.pdf",
+  "sourceTitle": "Career Interest Inventory (RIASEC)",
+  "sourcePages": "PDF pages 1-3",
+  "sourceStatus": "transcribed_from_supplied_pdf",
+  "instructions": [
+    "Mark the box for each statement that describes you.",
+    "Do not base answers on whether you have enough education or training to perform the activity.",
+    "Do not base answers on how much money you would make; think about whether you would like or dislike performing the work activity."
+  ],
+  "sections": [
+    {
+      "id": "R",
+      "title": "Realistic (R)",
+      "groups": [
+        {
+          "id": "r_are",
+          "title": "Are you"
+        },
+        {
+          "id": "r_can",
+          "title": "Can you"
+        },
+        {
+          "id": "r_like",
+          "title": "Like to"
+        }
+      ]
+    },
+    {
+      "id": "I",
+      "title": "Investigative (I)",
+      "groups": [
+        {
+          "id": "i_are",
+          "title": "Are you"
+        },
+        {
+          "id": "i_can",
+          "title": "Can you"
+        },
+        {
+          "id": "i_like",
+          "title": "Like to"
+        }
+      ]
+    },
+    {
+      "id": "A",
+      "title": "Artistic (A)",
+      "groups": [
+        {
+          "id": "a_are",
+          "title": "Are you"
+        },
+        {
+          "id": "a_can",
+          "title": "Can you"
+        },
+        {
+          "id": "a_like",
+          "title": "Like to"
+        }
+      ]
+    },
+    {
+      "id": "S",
+      "title": "Social (S)",
+      "groups": [
+        {
+          "id": "s_are",
+          "title": "Are you"
+        },
+        {
+          "id": "s_can",
+          "title": "Can you"
+        },
+        {
+          "id": "s_like",
+          "title": "Like to"
+        }
+      ]
+    },
+    {
+      "id": "E",
+      "title": "Enterprising (E)",
+      "groups": [
+        {
+          "id": "e_are",
+          "title": "Are you"
+        },
+        {
+          "id": "e_can",
+          "title": "Can you"
+        },
+        {
+          "id": "e_like",
+          "title": "Like to"
+        }
+      ]
+    },
+    {
+      "id": "C",
+      "title": "Conventional (C)",
+      "groups": [
+        {
+          "id": "c_are",
+          "title": "Are you"
+        },
+        {
+          "id": "c_can",
+          "title": "Can you"
+        },
+        {
+          "id": "c_like",
+          "title": "Like to"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": "riasec_r_are_01",
+      "sectionId": "R",
+      "groupId": "r_are",
+      "prompt": "Handy",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_are_02",
+      "sectionId": "R",
+      "groupId": "r_are",
+      "prompt": "Active, enjoy sports",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_are_03",
+      "sectionId": "R",
+      "groupId": "r_are",
+      "prompt": "Good with Animals",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_are_04",
+      "sectionId": "R",
+      "groupId": "r_are",
+      "prompt": "Good with Tools",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_can_01",
+      "sectionId": "R",
+      "groupId": "r_can",
+      "prompt": "Fix things",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_can_02",
+      "sectionId": "R",
+      "groupId": "r_can",
+      "prompt": "Read a drawing",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_can_03",
+      "sectionId": "R",
+      "groupId": "r_can",
+      "prompt": "Play a sport",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_can_04",
+      "sectionId": "R",
+      "groupId": "r_can",
+      "prompt": "Put up a Tent",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_like_01",
+      "sectionId": "R",
+      "groupId": "r_like",
+      "prompt": "Build things",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_like_02",
+      "sectionId": "R",
+      "groupId": "r_like",
+      "prompt": "Work outdoors",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_like_03",
+      "sectionId": "R",
+      "groupId": "r_like",
+      "prompt": "Work with Tools",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_r_like_04",
+      "sectionId": "R",
+      "groupId": "r_like",
+      "prompt": "Use your hands",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_are_01",
+      "sectionId": "I",
+      "groupId": "i_are",
+      "prompt": "Interested in Learning",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_are_02",
+      "sectionId": "I",
+      "groupId": "i_are",
+      "prompt": "One who asks questions",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_are_03",
+      "sectionId": "I",
+      "groupId": "i_are",
+      "prompt": "Alert",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_are_04",
+      "sectionId": "I",
+      "groupId": "i_are",
+      "prompt": "One who likes Science",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_can_01",
+      "sectionId": "I",
+      "groupId": "i_can",
+      "prompt": "Use facts to answer questions",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_can_02",
+      "sectionId": "I",
+      "groupId": "i_can",
+      "prompt": "Think",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_can_03",
+      "sectionId": "I",
+      "groupId": "i_can",
+      "prompt": "Solve math problems",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_can_04",
+      "sectionId": "I",
+      "groupId": "i_can",
+      "prompt": "Use a microscope",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_like_01",
+      "sectionId": "I",
+      "groupId": "i_like",
+      "prompt": "Find things",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_like_02",
+      "sectionId": "I",
+      "groupId": "i_like",
+      "prompt": "Use computers",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_like_03",
+      "sectionId": "I",
+      "groupId": "i_like",
+      "prompt": "Work alone",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_i_like_04",
+      "sectionId": "I",
+      "groupId": "i_like",
+      "prompt": "Read magazines about computers",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_are_01",
+      "sectionId": "A",
+      "groupId": "a_are",
+      "prompt": "Artistic",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_are_02",
+      "sectionId": "A",
+      "groupId": "a_are",
+      "prompt": "Able to Imagine new things",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_are_03",
+      "sectionId": "A",
+      "groupId": "a_are",
+      "prompt": "Able to Think of new ideas",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_are_04",
+      "sectionId": "A",
+      "groupId": "a_are",
+      "prompt": "Yourself",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true,
+      "reviewFlag": "source_text_review_required"
+    },
+    {
+      "id": "riasec_a_can_01",
+      "sectionId": "A",
+      "groupId": "a_can",
+      "prompt": "Sketch, draw, paint",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_can_02",
+      "sectionId": "A",
+      "groupId": "a_can",
+      "prompt": "Play a musical instrument",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_can_03",
+      "sectionId": "A",
+      "groupId": "a_can",
+      "prompt": "Write stories, sing, act, dance",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_can_04",
+      "sectionId": "A",
+      "groupId": "a_can",
+      "prompt": "Decorate your room",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_like_01",
+      "sectionId": "A",
+      "groupId": "a_like",
+      "prompt": "Attend concerts, art exhibits",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_like_02",
+      "sectionId": "A",
+      "groupId": "a_like",
+      "prompt": "Read",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_like_03",
+      "sectionId": "A",
+      "groupId": "a_like",
+      "prompt": "Work on crafts, make things",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_a_like_04",
+      "sectionId": "A",
+      "groupId": "a_like",
+      "prompt": "Take pictures",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_are_01",
+      "sectionId": "S",
+      "groupId": "s_are",
+      "prompt": "Friendly",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_are_02",
+      "sectionId": "S",
+      "groupId": "s_are",
+      "prompt": "Helpful",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_are_03",
+      "sectionId": "S",
+      "groupId": "s_are",
+      "prompt": "A people person",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_are_04",
+      "sectionId": "S",
+      "groupId": "s_are",
+      "prompt": "Kind",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_can_01",
+      "sectionId": "S",
+      "groupId": "s_can",
+      "prompt": "Teach a Child",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_can_02",
+      "sectionId": "S",
+      "groupId": "s_can",
+      "prompt": "Tell people what you need",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_can_03",
+      "sectionId": "S",
+      "groupId": "s_can",
+      "prompt": "Cooperate with others",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_can_04",
+      "sectionId": "S",
+      "groupId": "s_can",
+      "prompt": "Plan an Activity",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_like_01",
+      "sectionId": "S",
+      "groupId": "s_like",
+      "prompt": "Work with other people",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_like_02",
+      "sectionId": "S",
+      "groupId": "s_like",
+      "prompt": "Help people",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_like_03",
+      "sectionId": "S",
+      "groupId": "s_like",
+      "prompt": "Play team sports",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_s_like_04",
+      "sectionId": "S",
+      "groupId": "s_like",
+      "prompt": "Participate in meetings",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_are_01",
+      "sectionId": "E",
+      "groupId": "e_are",
+      "prompt": "Confident",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_are_02",
+      "sectionId": "E",
+      "groupId": "e_are",
+      "prompt": "Able to be firm",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_are_03",
+      "sectionId": "E",
+      "groupId": "e_are",
+      "prompt": "Active",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_are_04",
+      "sectionId": "E",
+      "groupId": "e_are",
+      "prompt": "Able to Argue",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_can_01",
+      "sectionId": "E",
+      "groupId": "e_can",
+      "prompt": "Sell things",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_can_02",
+      "sectionId": "E",
+      "groupId": "e_can",
+      "prompt": "Talk to people",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_can_03",
+      "sectionId": "E",
+      "groupId": "e_can",
+      "prompt": "Organize Activities",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_can_04",
+      "sectionId": "E",
+      "groupId": "e_can",
+      "prompt": "Start Projects",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_like_01",
+      "sectionId": "E",
+      "groupId": "e_like",
+      "prompt": "Make decisions",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_like_02",
+      "sectionId": "E",
+      "groupId": "e_like",
+      "prompt": "Plan get-togethers with friends",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_like_03",
+      "sectionId": "E",
+      "groupId": "e_like",
+      "prompt": "Meet important people",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_e_like_04",
+      "sectionId": "E",
+      "groupId": "e_like",
+      "prompt": "Win an Award",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_are_01",
+      "sectionId": "C",
+      "groupId": "c_are",
+      "prompt": "Neat and Clean",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_are_02",
+      "sectionId": "C",
+      "groupId": "c_are",
+      "prompt": "Accurate",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_are_03",
+      "sectionId": "C",
+      "groupId": "c_are",
+      "prompt": "Careful to be neat",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_are_04",
+      "sectionId": "C",
+      "groupId": "c_are",
+      "prompt": "Careful to do things right",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_can_01",
+      "sectionId": "C",
+      "groupId": "c_can",
+      "prompt": "Follow school rules",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_can_02",
+      "sectionId": "C",
+      "groupId": "c_can",
+      "prompt": "Keep records",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_can_03",
+      "sectionId": "C",
+      "groupId": "c_can",
+      "prompt": "Write letters",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_can_04",
+      "sectionId": "C",
+      "groupId": "c_can",
+      "prompt": "Use a computer",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_like_01",
+      "sectionId": "C",
+      "groupId": "c_like",
+      "prompt": "Use computers",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_like_02",
+      "sectionId": "C",
+      "groupId": "c_like",
+      "prompt": "Work with numbers",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_like_03",
+      "sectionId": "C",
+      "groupId": "c_like",
+      "prompt": "Be exact with words, numbers",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    },
+    {
+      "id": "riasec_c_like_04",
+      "sectionId": "C",
+      "groupId": "c_like",
+      "prompt": "Follow directions",
+      "responseType": "boolean_checkbox",
+      "required": true,
+      "scored": true
+    }
+  ]
+}
